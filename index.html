@@ -6,10 +6,8 @@
 
     <title>Crystal Game!</title>
     <link rel="stylesheet" type="text/css" href="../unit-4-game/assets/css/reset.css">
-
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
     <link rel="stylesheet" type="text/css" href="../unit-4-game/assets/css/style.css">
 
 </head>
@@ -22,28 +20,28 @@
     <div class="card rounded" id="main-box">
         <div class="card list-inline-center border-info rounded" id="crystal-box">
             <div class="d-flex justify-content-center">
-                <img id="red" src="../unit-4-game/assets/images/Red.JPG">
-                <img id="white" src="../unit-4-game/assets/images/White.JPG">
-                <img id="green" src="../unit-4-game/assets/images/Green.JPG">
-                <img id="yellow" src="../unit-4-game/assets/images/Yellow.JPG">
+                <button class="button"><img id="red" src="../unit-4-game/assets/images/Red.JPG"></button>
+                <button class="button"><img id="white" src="../unit-4-game/assets/images/White.JPG"></button>
+                <button class="button"><img id="green" src="../unit-4-game/assets/images/Green.JPG"></button>
+                <button class="button"><img id="yellow" src="../unit-4-game/assets/images/Yellow.JPG"></button>
             </div>
         </div>
         <br>
         <div class="d-flex justify-content-center border border-info rounded">
-            <div class="col-sm-6 d-flex justify-content-center border-info rounded">
-                <h2>Counter:</h2>
+            <div id="counter" class="col-sm-6 d-flex justify-content-center border-info rounded">
+                <h2 id="h2">0</h2>
             </div>
-            <div class="col-sm-6 d-flex justify-content-center border-info rounded">
+            <div id="total" class="col-sm-6 d-flex justify-content-center border-info rounded">
                 <h2>Total:</h2>
             </div>
 
         </div>
         <br>
         <div class="d-flex justify-content-center border border-info rounded">
-            <div class="col-sm-6 d-flex justify-content-center border-info rounded">
+            <div id="wins" class="col-sm-6 d-flex justify-content-center border-info rounded">
                 <h2>Wins:</h2>
             </div>
-            <div class="col-sm-6 d-flex justify-content-center border-info rounded">
+            <div id="losses" class="col-sm-6 d-flex justify-content-center border-info rounded">
                 <h2>Losses:</h2>
             </div>
 
@@ -52,7 +50,10 @@
     </div>
 
 
-
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
     <script src="../unit-4-game/assets/javascript/game.js"></script>
 </body>
 

@@ -1,7 +1,36 @@
 .jumbotron{
     background-color: aquamarine;
+    background-blend-mode: color-burn 
 }
 
 h1 {
     color: #147cc2;
 }
+
+
+
+  .button img:active {
+    transform: scale(0.8);
+    padding: 5px;
+  }
+
+  .button {
+      padding: 10px;
+      margin: 10px;
+  }
+
+  /* #white img:active {
+    transform: scale(0.8);
+    padding: 10px;
+  }
+
+  #green img:active {
+    transform: scale(0.8);
+    padding: 10px;
+  }
+
+  #yellow img:active {
+    transform: scale(0.8);
+    padding: 10px;
+  }
+  
