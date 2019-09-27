@@ -27,33 +27,57 @@
             </div>
         </div>
         <br>
-        <div class="d-flex justify-content-center border border-info rounded">
-            <div id="counter" class="col-sm-6 d-flex justify-content-center border-info rounded">
-                <h2 id="h2"></h2>
-            </div>
-            <div id="total" class="col-sm-6 d-flex justify-content-center border-info rounded">
-                <h2>Total:</h2>
-            </div>
-
-        </div>
-        <br>
-        <div class="d-flex justify-content-center border border-info rounded">
-            <div id="wins" class="col-sm-6 d-flex justify-content-center border-info rounded">
-                <h2>Wins:</h2>
-            </div>
-            <div id="losses" class="col-sm-6 d-flex justify-content-center border-info rounded">
-                <h2>Losses:</h2>
-            </div>
-
-        </div>
 
     </div>
 
 
-    <script
-    src="https://code.jquery.com/jquery-3.4.1.js"
-    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-    crossorigin="anonymous"></script>
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card text-center border border-info">
+                <h1 class="card-header">Goal:</h1>
+                <div class="card-body">
+                    <h3 class="card-text" id="goal">0</h3>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-sm-6">
+            <div class="card text-center border border-info">
+                <h1 class="card-header">Current Score:</h1>
+                <div class="card-body">
+                    <h3 class="card-text" id="currentScore">0</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="col-sm-6">
+            <div class="card text-center border border-info">
+                <h1 class="card-header">Wins:</h1>
+                <div class="card-body">
+                    <h3 class="card-text" id="wins">0</h3>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col-sm-6">
+            <div class="card text-center border border-info">
+                <h1 class="card-header">Losses:</h1>
+                <div class="card-body">
+                    <h3 class="card-text" id="losses">0</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="../unit-4-game/assets/javascript/game.js"></script>
 </body>
 

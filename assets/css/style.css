@@ -1,12 +1,17 @@
 .jumbotron{
     background-color: aquamarine;
-    background-blend-mode: color-burn 
+    /* background-blend-mode: color- burn  */
+    font-weight: bolder;
 }
 
 h1 {
     color: #147cc2;
 }
 
+.card-header {
+  background-color: aquamarine;
+  border: #147cc2;
+}
 
 
   .button img:active {
